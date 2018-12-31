@@ -1,0 +1,322 @@
+.extra-padding{padding-top: 25px !important;}
+#expire{color: green;}
+#history_heading{
+    margin-left: 15px;
+}
+
+.caret{
+    float: right;
+margin-right: 5px;
+margin-left: 5px;
+margin-top: -22px;
+}
+form.cmxform label.error, label.error {
+  color: red;
+  font-style: italic;
+}
+
+      /* For Firefox */
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+/* Webkit browsers like Safari and Chrome */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.btn_sbmt{
+    font-size: 30px;
+    width: 200px;
+}
+
+/*datepicker div*/
+#id_qr{
+    width: 23.7%;
+    padding-left: 1.4% !important;
+}
+
+#datetimepicker123{
+    width: 23.7% !important;
+    padding-left: 1.4% !important;
+}
+
+@media only screen and (max-width: 720px) {
+    .date_date{
+        width: 95%;
+        padding-left: 4.5% !important; 
+    }
+}
+
+/*farm search harvest*/
+.page-title{
+                padding-top: 10px;
+            }
+            @media only screen and (max-width: 720px) {
+                .btn_btn{
+                    margin-top: 10px;
+                    /*margin-left: 145px;*/
+                }
+            }
+
+/*farm sell harvest*/
+form.cmxform label.error, label.error {
+              color: red;
+              font-style: italic;
+            }
+
+                  /* For Firefox */
+            input[type='number'] {
+                -moz-appearance:textfield;
+            }
+            /* Webkit browsers like Safari and Chrome */
+            input[type=number]::-webkit-inner-spin-button,
+            input[type=number]::-webkit-outer-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+            .btn_sbmt{
+                font-size: 30px;
+                width: 200px;
+            }
+
+            /*datepicker div*/
+            .date_date{
+                width: 23.7%;
+                padding-left: 1.4% !important;
+            }
+
+            @media only screen and (max-width: 720px) {
+                .date_date{
+                    width: 95%;
+                    padding-left: 4.5% !important; 
+                }
+            }
+
+            input#qr {
+              display: inline-block;
+              width: 100%;
+              padding: 33px 0 0 0;
+              height: 35px;
+              /*overflow: hidden;*/
+              -webkit-box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              box-sizing: border-box;
+              background-image: url(assets/camera.png); 
+              background-repeat: no-repeat; 
+              background-position: right; 
+              overflow: hidden; 
+              cursor: pointer; 
+              background-size: 50px;
+            }
+
+/*pht create pht*/
+form.cmxform label.error, label.error {
+            color: red;
+            font-style: italic;
+          } 
+      /* For Firefox */
+            input[type='number'] {
+                -moz-appearance:textfield;
+            }
+            /* Webkit browsers like Safari and Chrome */
+            input[type=number]::-webkit-inner-spin-button,
+            input[type=number]::-webkit-outer-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+
+            /*datepicker div*/
+            .date_date{
+                width: 64%;
+                padding-left: 2.5% !important;
+            }
+
+            @media only screen and (max-width: 720px) {
+                .date_date{
+                    width: 95%;
+                    padding-left: 4.5% !important; 
+                }
+            }
+
+            .page-title{
+                padding-top: 10px;
+            }
+
+            .btn_sbmt{
+                font-size: 30px;
+                width: 200px;
+            }
+
+/*registry create exporters*/
+form.cmxform label.error, label.error {
+            color: red;
+            font-style: italic;
+          }
+      
+      /* For Firefox */
+            input[type='number'] {
+                -moz-appearance:textfield;
+            }
+            /* Webkit browsers like Safari and Chrome */
+            input[type=number]::-webkit-inner-spin-button,
+            input[type=number]::-webkit-outer-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+
+            /*datepicker div*/
+            .date_date{
+                width: 64%;
+                padding-left: 2.5% !important;
+            }
+
+            @media only screen and (max-width: 720px) {
+                .date_date{
+                    width: 95%;
+                    padding-left: 4.5% !important; 
+                }
+            }
+
+            .page-title{
+                padding-top: 10px;
+            }
+
+            .btn_sbmt{
+                font-size: 30px;
+                width: 200px;
+            }
+
+/*registry create farm*/
+form.cmxform label.error, label.error {
+        color: red;
+        font-style: italic;
+      }
+      /* For Firefox */
+            input[type='number'] {
+                -moz-appearance:textfield;
+            }
+            /* Webkit browsers like Safari and Chrome */
+            input[type=number]::-webkit-inner-spin-button,
+            input[type=number]::-webkit-outer-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+
+            /*datepicker div*/
+            .date_date{
+                width: 64%;
+                padding-left: 2.5% !important;
+            }
+
+            @media only screen and (max-width: 720px) {
+                .date_date{
+                    width: 95%;
+                    padding-left: 4.5% !important; 
+                }
+            }
+
+            .page-title{
+                padding-top: 10px;
+            }
+
+            .btn_sbmt{
+                font-size: 30px;
+                width: 200px;
+            }
+
+/*registry create processor*/
+form.cmxform label.error, label.error {
+            color: red;
+            font-style: italic;
+          }
+      /* For Firefox */
+            input[type='number'] {
+                -moz-appearance:textfield;
+            }
+            /* Webkit browsers like Safari and Chrome */
+            input[type=number]::-webkit-inner-spin-button,
+            input[type=number]::-webkit-outer-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+
+            /*datepicker div*/
+            .date_date{
+                width: 64%;
+                padding-left: 2.5% !important;
+            }
+
+            @media only screen and (max-width: 720px) {
+                .date_date{
+                    width: 95%;
+                    padding-left: 4.5% !important; 
+                }
+            }
+
+            .page-title{
+                padding-top: 10px;
+            }
+
+            .btn_sbmt{
+                font-size: 30px;
+                width: 200px;
+            }
+/*other*/
+
+#power-off{
+    color: red; font-size: x-large;
+}
+
+#logout_li{
+    padding: 14px 12px;
+}
+
+
+#remHatcherybtn{
+    color: red; display: none; margin-left: 10px;
+}
+
+#remFeedsbtn{
+    color: red; display: none; margin-left: 10px;
+}
+
+#remSuppbtn{
+    color: red; display: none; margin-left: 10px;
+}
+
+#qr{
+    display: none; width: 600px; height: 450px; border: 1px solid silver;
+}
+
+#cam{
+    color: black;
+}
+
+#stop{
+    margin-right: 199px; margin-top: 2px;
+}
+
+#change{
+    margin-right: 1px; margin-top: 2px;
+}
+
+#phtcer{
+    padding-top: 8px;
+}
+
+#ind_head{
+    color: #fff;
+}
+
+#pht_pg_bar{
+    padding-top: 16px;
+}
+
+#result, #result1{
+    margin-top: 45px;
+}
+
+.btn_btn_btn{
+    width: -moz-available;
+}
