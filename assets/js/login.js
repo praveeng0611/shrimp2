@@ -20,8 +20,8 @@ $(document).ready(function () {
                 } else {
                     localStorage.setItem("token", data.authToken);
                     // console.log(data.authToken);
-                    // document.location = 'dashboard.html?login=' + user;
-                    document.location = 'dashboard.html';
+                    // document.location = 'dashboard.php?login=' + user;
+                    document.location = 'dashboard.php';
                 }
             }
         });

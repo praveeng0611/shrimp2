@@ -1,245 +1,16 @@
-<!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="en">
-<!--<![endif]-->
-<!-- BEGIN HEAD -->
+<?php
+    $__title = 'TATA SHRIMP PILOT | Create Farm';
+    $__description = 'Pilot Programme for Tata Shrimp using Blockchain Technology';
+?>
 
-<head>
-    <meta charset="utf-8" />
-    <title>TATA SHRIMP PILOT | Create Farm</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="Preview page of Metronic Admin Theme #2 for form layouts" name="description" />
-    <meta content="" name="author" />
-    <!-- BEGIN GLOBAL MANDATORY STYLES -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
-    <link href="assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
-    <!-- END GLOBAL MANDATORY STYLES -->
-    <!-- BEGIN PAGE LEVEL PLUGINS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/custom_style.css">
-    <!-- END PAGE LEVEL PLUGINS -->
-    <!-- BEGIN THEME GLOBAL STYLES -->
-    <link href="assets/global/css/components-rounded.min.css" rel="stylesheet" id="style_components" type="text/css" />
-    <link href="assets/global/css/plugins.min.css" rel="stylesheet" type="text/css" />
-    <!-- END THEME GLOBAL STYLES -->
-    <!-- BEGIN THEME LAYOUT STYLES -->
-    <link href="assets/layouts/layout2/css/layout.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/layouts/layout2/css/themes/blue.min.css" rel="stylesheet" type="text/css" id="style_color" />
-    <link href="assets/layouts/layout2/css/custom.min.css" rel="stylesheet" type="text/css" />
-    <!-- END THEME LAYOUT STYLES -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.css">
-    <!-- <link rel="shortcut icon" href="favicon.ico" /> -->
-
-    <!-- <script type="text/javascript">
-        function getUrlParam(param) {
-            param = param.replace(/([\[\](){}*?+^$.\\|])/g, "\\$1");
-            var regex = new RegExp("[?&]" + param + "=([^&#]*)");
-            var url = decodeURIComponent(window.location.href);
-            var match = regex.exec(url);
-            return match ? match[1] : "";
-        }
-    </script> -->
-
-</head>
-<!-- END HEAD -->
+<?php include('include/header.php'); ?>
 
 <body class="page-header-fixed page-sidebar-closed-hide-logo page-container-bg-solid">
-    <!-- BEGIN HEADER -->
-    <div class="page-header navbar navbar-fixed-top">
-        <!-- BEGIN HEADER INNER -->
-        <div class="page-header-inner ">
-            <!-- BEGIN LOGO -->
-            <div class="page-logo">
-                <a href="index.html">
-                    <img src="assets/layouts/layout2/img/logo-default.png" alt="logo" class="logo-default" /> </a>
-                <div class="menu-toggler sidebar-toggler">
-                    <!-- DOC: Remove the above "hide" to enable the sidebar toggler button on header -->
-                </div>
-            </div>
-            <!-- END LOGO -->
-            <!-- BEGIN RESPONSIVE MENU TOGGLER -->
-            <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse"> </a>
-
-            <div class="page-actions">
-                <h1 class="page-title"><!-- Registry - Register Farm --></h1>
-            </div>
-            <div class="page-top">
-
-                <div class="top-menu">
-                    <ul class="nav navbar-nav pull-right">
-
-                        <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
-                        <li class="dropdown dropdown-user">
-                            <a class="dropdown-toggle">
-                                <img alt="" class="img-circle" src="assets/layouts/layout2/img/avatar3_small.jpg" />
-                                <span class="username username-hide-on-mobile">
-                                    <!-- <script>var param = getUrlParam("login"); document.write(param);</script> -->test-user
-                                </span>
-                            </a>
-                        </li>
-                        <!-- END USER LOGIN DROPDOWN -->
-                        <li id="logout_li">
-                            <a href="index.html" id="logout1">
-                                <i class="fa fa-power-off" id="power-off"></i>
-                            </a>
-                        </li>
-                        <!-- END QUICK SIDEBAR TOGGLER -->
-                    </ul>
-                </div>
-                <!-- END TOP NAVIGATION MENU -->
-            </div>
-            <!-- END PAGE TOP -->
-        </div>
-        <!-- END HEADER INNER -->
-    </div>
-    <!-- END HEADER -->
-    <!-- BEGIN HEADER & CONTENT DIVIDER -->
-    <div class="clearfix"> </div>
-    <!-- END HEADER & CONTENT DIVIDER -->
+    
+    <?php include('include/topbar.php'); ?>
     <!-- BEGIN CONTAINER -->
     <div class="page-container">
-        <!-- BEGIN SIDEBAR -->
-        <div class="page-sidebar-wrapper">
-            <div class="page-sidebar navbar-collapse collapse">
-                <ul class="page-sidebar-menu  page-header-fixed" data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
-                    <script>
-                        document.write('<li class="nav-item "><a href="dashboard.html" class="nav-link nav-toggle"><i class="icon-home"></i><span class="title">Dashboard</span></a></li>');
-                        </script>
-                    <li class="nav-item  ">
-                        <a href="javascript:;" class="nav-link nav-toggle">
-                            <i class="icon-bar-chart"></i>
-                            <span class="title">Farm</span>
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="sub-menu">
-                            <script>
-                                document.write('<li class="nav-item  "><a href="farm_create_harvest.html" class="nav-link "><span class="title">Create New Harvest</span></a></li>');
-                                </script>
-                            <script>
-                                document.write('<li class="nav-item  "><a href="farm_sell_harvest.html" class="nav-link "><span class="title">Sell Harvest</span></a></li>');
-                                </script>
-                            <script>
-                                document.write('<li class="nav-item  "><a href="farm_search_harvest.html" class="nav-link "><span class="title">Search Harvest</span></a></li>');
-                                </script>
-                                <script>
-                            document.write('<li class="nav-item"><a href="harvest_sell_to_processor.html" class="nav-link "><span class="title">Harvest History</span></a></li>');
-                            </script>
-                            <!-- <script>
-                                document.write('<li class="nav-item  "><a href="#" class="nav-link "><span class="title">View Sale</span></a></li>');
-                                </script> -->
-                            <script>
-                                document.write('<li class="nav-item  "><a href="farm_search_pht.html" class="nav-link "><span class="title">PHT Certificates</span></a></li>');
-                                </script>
-                        </ul>
-                    </li>
-                    <li class="nav-item  ">
-                        <a href="javascript:;" class="nav-link nav-toggle">
-                            <i class="icon-briefcase"></i>
-                            <span class="title">Processors</span>
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="sub-menu">
-                            <script>
-                                document.write('<li class="nav-item  "><a href="processor_confirm_purchase.html" class="nav-link "><span class="title">Confirm Purchase</span></a></li>');
-                                </script>
-                            <script>
-                                document.write('<li class="nav-item  "><a href="processor_pending_purchase.html" class="nav-link "><span class="title">Purchase History</span></a></li>');
-                                </script>
-                            <!-- <script>
-                                document.write('<li class="nav-item  "><a href="#" class="nav-link "><span class="title">Purchase History</span></a></li>');
-                                </script> -->
-                            <script>
-                                document.write('<li class="nav-item  "><a href="create_sku.html" class="nav-link "><span class="title">Create SKU</span></a></li>');
-                                </script>
-                            <script>
-                                document.write('<li class="nav-item  "><a href="search_sku.html" class="nav-link "><span class="title">View SKUs</span></a></li>');
-                                </script>
-                            <script>
-                                document.write('<li class="nav-item  "><a href="view_inventory.html" class="nav-link "><span class="title">View Inventory</span></a></li>');
-                                </script>
-                        </ul>
-                    </li>
-                    <li class="nav-item  ">
-                        <a href="javascript:;" class="nav-link nav-toggle">
-                            <i class="icon-diamond"></i>
-                            <span class="title">PHT LAB</span>
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="sub-menu">
-                            <script>
-                                document.write('<li class="nav-item"><a href="pht_create_pht.html" class="nav-link nav-toggle"><span class="title">Create PHT Certificates</span></span></a></li>');
-                                </script>
-
-                            <script>
-                                document.write('<li class="nav-item"><a href="pht_search_pht.html" class="nav-link nav-toggle"><span class="title">Search PHT Certificates</span></span></a></li>');
-                                </script>
-                            <script>
-                                document.write('<li class="nav-item"><a href="pht_certificate_history.html" class="nav-link nav-toggle"><span class="title">PHT History</span></span></a></li>');
-                                </script>
-                        </ul>
-                    </li>
-                    <li class="nav-item active ">
-                        <a href="javascript:;" class="nav-link nav-toggle">
-                            <i class="icon-settings"></i>
-                            <span class="title">Admin</span>
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="sub-menu">
-                            <script>
-                                document.write('<li class="nav-item active "><a href="registry_create_farm_with_pht.html" class="nav-link "><span class="title">Register Farm</span></a></li>');
-                                </script>
-                            <!-- <script>
-                                document.write('<li class="nav-item  "><a href="registry_create_farm_without_pht.html" class="nav-link "><span class="title">Register Farm Without PHT ID</span></a></li>');
-                                </script> -->
-                            <script>
-                                document.write('<li class="nav-item  "><a href="registry_create_processors.html" class="nav-link "><span class="title">Register Processor</span></a></li>');
-                                </script>
-                            <script>
-                                document.write('<li class="nav-item  "><a href="registry_create_exporters.html" class="nav-link "><span class="title">Register Exporter</span></a></li>');
-                                </script>
-                            <script>
-                                document.write('<li class="nav-item  "><a href="create_hatchery.html" class="nav-link "><span class="title">Register Hatchery</span></a></li>');
-                                </script>
-                            <script>
-                                document.write('<li class="nav-item  "><a href="create_feed.html" class="nav-link "><span class="title">Register Feed</span></a></li>');
-                                </script>
-                            <script>
-                                document.write('<li class="nav-item  "><a href="create_suppliment.html" class="nav-link "><span class="title">Register Supplement</span></a></li>');
-                                </script>
-                            <script>
-                                document.write('<li class="nav-item  "><a href="registry_search_farms.html" class="nav-link "><span class="title">Search Farm</span></a></li>');
-                                </script>
-                            <script>
-                                document.write('<li class="nav-item  "><a href="registry_search_processors.html" class="nav-link "><span class="title">Search Processors</span></a></li>');
-                                </script>
-                            <script>
-                                document.write('<li class="nav-item  "><a href="registry_search_exporters.html" class="nav-link "><span class="title">Search Exporters</span></a></li>');
-                                </script>
-                            <script>
-                                document.write('<li class="nav-item  "><a href="search_hatchery.html" class="nav-link "><span class="title">Search Hatchery</span></a></li>');
-                                </script>
-                            <script>
-                                document.write('<li class="nav-item  "><a href="search_feed.html" class="nav-link "><span class="title">Search Feed</span></a></li>');
-                                </script>
-                            <script>
-                                document.write('<li class="nav-item  "><a href="search_suppliment.html" class="nav-link "><span class="title">Search Supplement</span></a></li>');
-                                </script>
-                        </ul>
-                    </li>
-                    <script>
-                        document.write('<li class="nav-item"><a href="trace_sku.html" class="nav-link nav-toggle"><i class="icon-pointer"></i><span class="title">Trace SKU</span></a></li>');
-                        </script>
-                </ul>
-                <!-- END SIDEBAR MENU -->
-            </div>
-            <!-- END SIDEBAR -->
-        </div>
-        <!-- END SIDEBAR -->
+    <?php include('include/sidebar.php'); ?>
         <!-- BEGIN CONTENT -->
         <div class="page-content-wrapper">
             <!-- BEGIN CONTENT BODY -->
@@ -250,7 +21,7 @@
                     <ul class="page-breadcrumb">
                         <li>
                             <i class="icon-home"></i>
-                            <a href="dashboard.html">Home</a>
+                            <a href="dashboard.php">Home</a>
                             <i class="fa fa-angle-right"></i>
                         </li>
                         <li>
@@ -440,41 +211,7 @@
                                                                 <div class="col-md-8">
                                                                     <select id="state" name="address[state]" class="form-control" required="">
                                                                         <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
-                                                                        <option value="Andhra Pradesh">Andhra Pradesh</option>
-                                                                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-                                                                        <option value="Assam">Assam</option>
-                                                                        <option value="Bihar">Bihar</option>
-                                                                        <option value="Chandigarh">Chandigarh</option>
-                                                                        <option value="Chhattisgarh">Chhattisgarh</option>
-                                                                        <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
-                                                                        <option value="Daman and Diu">Daman and Diu</option>
-                                                                        <option value="Delhi">Delhi</option>
-                                                                        <option value="Goa">Goa</option>
-                                                                        <option value="Gujarat">Gujarat</option>
-                                                                        <option value="Haryana">Haryana</option>
-                                                                        <option value="Himachal Pradesh">Himachal Pradesh</option>
-                                                                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
-                                                                        <option value="Jharkhand">Jharkhand</option>
-                                                                        <option value="Karnataka">Karnataka</option>
-                                                                        <option value="Kerala">Kerala</option>
-                                                                        <option value="Lakshadweep">Lakshadweep</option>
-                                                                        <option value="Madhya Pradesh">Madhya Pradesh</option>
-                                                                        <option value="Maharashtra">Maharashtra</option>
-                                                                        <option value="Manipur">Manipur</option>
-                                                                        <option value="Meghalaya">Meghalaya</option>
-                                                                        <option value="Mizoram">Mizoram</option>
-                                                                        <option value="Nagaland">Nagaland</option>
-                                                                        <option value="Odisha">Odisha</option>
-                                                                        <option value="Puducherry">Puducherry</option>
-                                                                        <option value="Punjab">Punjab</option>
-                                                                        <option value="Rajasthan">Rajasthan</option>
-                                                                        <option value="Sikkim">Sikkim</option>
-                                                                        <option value="TAMIL NADU">TAMIL NADU</option>
-                                                                        <option value="Telangana">Telangana</option>
-                                                                        <option value="Tripura">Tripura</option>
-                                                                        <option value="Uttar Pradesh">Uttar Pradesh</option>
-                                                                        <option value="Uttarakhand">Uttarakhand</option>
-                                                                        <option value="West Bengal">West Bengal</option>
+                                                                        
                                                                     </select>
                                                                 </div>
                                                             </div>
@@ -582,48 +319,4 @@
         <!-- END CONTENT -->
     </div>
     <!-- END CONTAINER -->
-    <div class="page-footer" id="foo_ter">
-        <div class="page-footer-inner"> 2018 &copy; TATA SHRIMP PILOT
-            <div class="scroll-to-top">
-                <i class="icon-arrow-up"></i>
-            </div>
-        </div>
-    </div>
-    <!-- BEGIN CORE PLUGINS -->
-    <script src="assets/global/plugins/jquery.min.js" type="text/javascript"></script>
-    <script src="assets/js/farm-form-validation.js"></script>
-    <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
-    <script src="assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
-    <!-- <script src="assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script> -->
-    <script src="assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
-    <script src="assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
-    <!-- END CORE PLUGINS -->
-    <!-- BEGIN THEME GLOBAL SCRIPTS -->
-    <script src="assets/global/scripts/app.min.js" type="text/javascript"></script>
-    <!-- END THEME GLOBAL SCRIPTS -->
-    <!-- BEGIN PAGE LEVEL SCRIPTS -->
-    <script src="assets/pages/scripts/form-samples.min.js" type="text/javascript"></script>
-    <!-- END PAGE LEVEL SCRIPTS -->
-    <!-- BEGIN THEME LAYOUT SCRIPTS -->
-    <script src="assets/layouts/layout2/scripts/layout.min.js" type="text/javascript"></script>
-    <script src="assets/layouts/layout2/scripts/demo.min.js" type="text/javascript"></script>
-    <script src="assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
-    <script src="assets/layouts/global/scripts/quick-nav.min.js" type="text/javascript"></script>
-    <!-- END THEME LAYOUT SCRIPTS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@1.6.0/src/loadingoverlay.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@1.6.0/extras/loadingoverlay_progress/loadingoverlay_progress.min.js"></script>
-    <script src="assets/js/logout.js"></script>
-    <script src="assets/js/registry_search_farms.js"></script>
-    <!-- <script src="assets/js/footer.js"></script> -->
-    <script src="assets/js/add_remove_ponds_in_farm.js"></script>
-    <script src="assets/js/create_new_farm_with_pht.js"></script>
-    <script src="assets/js/datepicker_registry_create_farm.js"></script>
-
-</body>
-
-</html>
+    <?php include('include/footer.php'); ?>
